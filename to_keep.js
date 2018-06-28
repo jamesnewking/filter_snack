@@ -1,4 +1,4 @@
-//to run: node to_keep (inFilename, targetFile, logfile)
+//to run: node to_keep (inFilename, targetFile)
 const keepWords = [`oatmeal`,`beagels`,`chocolate`,`with creme filling`,`doughnuts`,`danish pastry`,`cereals`,`oatmeal`,`cream of wheat`,`honey bunches of oats`,`shredded wheat`,`snacks`,`granola bar`,`popcorn`,`rice cackes`,`pretzels`,`barbecue-flavor`,`chips`,`candies`,`mars snackfood us`];
 var fs = require('fs');
 
@@ -36,16 +36,10 @@ fs.readFile(fileName, 'utf8', function (err,data) {
             outlog.push(fileData[index]);
         }
     }
-
-    returnRecordCount = fileData.length;
-    fs.writeFile(process.argv[3], JSON.stringify(fileData), function (err) {
+    
+    fs.writeFile(process.argv[3], JSON.stringify(outlog), function (err) {
         if (err) throw err;
         console.log(`Saved file ${process.argv[3]}, began with ${startRecords}, and added ${addedRecords}`);
-    });
-
-    fs.writeFile(process.argv[4], JSON.stringify(outlog), function (err) {
-        if (err) throw err;
-        console.log(`Saved file ${process.argv[4]}, outlog file`);
     });
 
 });

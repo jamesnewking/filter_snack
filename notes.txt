@@ -1,0 +1,29 @@
+james@DESKTOP-26PBGLE MINGW64 ~/Desktop/L_Fuze/cohort/0_snackFinder/data/categories/to_keep (v0.2_remove_log)
+$ node to_keep.js data0_norepeat.json data0_keep.json
+pulling data from file:  data0_norepeat.json
+Saved file data0_keep.json, began with 5954, and added 512
+
+james@DESKTOP-26PBGLE MINGW64 ~/Desktop/L_Fuze/cohort/0_snackFinder/data/categories/to_keep (v0.2_remove_log)
+$ node to_keep.js data1_norepeat.json data1_keep.json
+pulling data from file:  data1_norepeat.json
+Saved file data1_keep.json, began with 27545, and added 3398
+
+james@DESKTOP-26PBGLE MINGW64 ~/Desktop/L_Fuze/cohort/0_snackFinder/data/categories/to_keep (v0.2_remove_log)
+$ node to_keep.js data2_norepeat.json data2_keep.json
+pulling data from file:  data2_norepeat.json
+Saved file data2_keep.json, began with 36476, and added 4043
+
+james@DESKTOP-26PBGLE MINGW64 ~/Desktop/L_Fuze/cohort/0_snackFinder/data/categories/to_keep (v0.2_remove_log)
+$ node to_keep.js data3_norepeat.json data3_keep.json
+pulling data from file:  data3_norepeat.json
+Saved file data3_keep.json, began with 34459, and added 3951
+
+james@DESKTOP-26PBGLE MINGW64 ~/Desktop/L_Fuze/cohort/0_snackFinder/data/categories/to_keep (v0.2_remove_log)
+$ node to_keep.js data4_norepeat.json data4_keep.json
+pulling data from file:  data4_norepeat.json
+Saved file data4_keep.json, began with 34618, and added 3324
+
+james@DESKTOP-26PBGLE MINGW64 ~/Desktop/L_Fuze/cohort/0_snackFinder/data/categories/to_keep (v0.2_remove_log)
+$ node to_keep.js data5_norepeat.json data5_keep.json
+pulling data from file:  data5_norepeat.json
+Saved file data5_keep.json, began with 27710, and added 2554
